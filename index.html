@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables</title>
+
+    <script>
+
+        console.log("enter here");
+        console.log("enter here2");
+
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+
+
+$("button").click(function(){
+  $("#div1").fadeOut();
+  $("#div2").fadeOut("slow");
+  $("#div3").fadeOut(3000);
+}); 
+      
+
+        $(document).ready(function () {
+            console.log("ready!");
+
+            $("button3").click(function () {
+            // $("p").slideToggle();
+            $("#nehal").slideToggle();
+            // $("#sur").fadeIn();
+            // $("#sur").fadeIn("slow");
+            // $("#sur").fadeIn(3000);
+        });
+
+        $("#sur").click(function () {
+            // $("p").slideToggle();
+            // $("#nehal").slideToggle();
+            // $("#sur").fadeIn();
+            // $("#sur").fadeIn("slow");
+            // $("#sur").fadeIn(3000);
+
+                  $("#nehal2").fadeOut(3000);
+        });
+
+        });
+    </script>
+</head>
+
+<body>
+
+    <h1 id="nehal">Nehal You are beautiful girl i love you</h1>
+    <h1 id="nehal2">Nehal You are beautiful girl i love you  surya aaj ganja pe kr aaya h </h1>
+
+    <p>This is a paragraph.</p>
+
+    <button>Toggle slideUp() and slideDown()</button>
+    <button id="sur">Click me </button>
+
+
+</body>
+
+</html>
